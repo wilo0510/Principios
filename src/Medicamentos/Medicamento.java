@@ -9,7 +9,7 @@ package Medicamentos;
  *
  * @author wilme
  */
-public class Medicamento {
+public abstract class Medicamento {
     private String fabricante;
     private String nombreMedicamento;
     private int stock;
@@ -52,5 +52,6 @@ public class Medicamento {
     public void setCodBarras(int codBarras) {
         this.codBarras = codBarras;
     }
+    public abstract int precioMedicamento();
     
 }
