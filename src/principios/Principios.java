@@ -12,7 +12,7 @@ package principios;
 public class Principios {
 
     /**
-     * @param args the command line arguments
+     * @param args the command linee arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
