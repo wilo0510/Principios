@@ -78,5 +78,5 @@ public abstract class Medicamento {
 }
 ```
 <img src="Class Model.bmp"
-     alt="Markdown Monster icon"
-     style="float: center; margin-right: 10px;" />
+    alt="Diagrama de clases Medicamento"
+    style="display: block; margin-left: auto; margin-right:auto" />
