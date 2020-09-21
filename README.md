@@ -80,3 +80,13 @@ public abstract class Medicamento {
 <img src="Class Model.bmp"
     alt="Diagrama de clases Medicamento"
     style="display: block; margin-left: auto; margin-right:auto" />
+
+<h2>Principio de sustitución de Liskov</h2>
+
+<p><i>"El principio de sustitución de Liskov dice que si la clase A es de un subtipo de la clase B, entonces deberíamos poder reemplazar B con A sin afectar el comportamiento de nuestro programa."</p></i>
+
+Esto lo podemos ver evidenciado con la herencia de la clase <i>Medicamento</i>. Sus clases subtipo (<i>Omeprazol</i> y <i>Acetaminofen</i>) tienen un metodo común <i>precioMedicamento</i> que definen su comportamiento de forma interna e indovidual sin modificar la firma del metodo. 
+
+```java
+    medicamento.precioMedicamento()
+```
